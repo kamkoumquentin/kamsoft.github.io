@@ -1,0 +1,439 @@
+html,body{
+width: 100%;
+height: 100%;
+margin: 0;
+}
+
+body{
+    position: relative;
+    background-color: #121212;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url('fond.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family:'Montserrat';
+  
+
+
+}
+
+.h1{
+    font-size: 4vw;
+    
+}
+
+.h1,.h2,.h3,.h5{
+    color:whitesmoke ;
+    text-align: center;
+}
+
+#decouvrir{
+
+    width: 11em;
+    height: 3.5em;
+    font-family:'Montserrat';
+     font-size: 1vw;
+    
+    
+
+}
+
+
+
+main{
+float: right;
+width: 100%;
+/*background-color: chartreuse;*/
+position: relative;
+padding-top: 7vh;
+
+}
+
+#propos{
+display: flex;
+justify-content: center;
+/* background-color: aquamarine;*/
+margin-top: 4em;
+padding-top: 3vh;
+position: relative;
+}
+
+.figure{
+    width: 35%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    border-radius: 5px 5px 5px 5px;
+  /*  background-color: bisque;*/
+}
+
+.pro_img{
+width: 40%;
+height: 100%;
+ border-radius: 5px 5px 5px 5px;
+}
+
+.aside{
+    width: 52%;
+   /* background-color: brown;*/
+   color: whitesmoke;
+    position: relative;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   line-height: 6vh;
+}
+
+
+#presentation{
+   
+    width: 85%;
+    text-align:justify;
+    line-height: 6vh;
+  /*  background-color: antiquewhite;*/
+}
+
+
+.compet{
+     width: 85%;
+   
+  /*background-color: aquamarine;*/
+}
+
+
+
+
+
+
+
+.carte{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 1em;
+    width: 20em;
+    height: 20em;
+    border-radius:5px 5px 5px 5px;
+    position: relative;
+
+}
+
+#projet{
+    position: relative;
+    width: 80%;
+   
+    margin: auto;
+  /*  background-color: blue;*/
+    display: flex;
+    justify-content: space-between;
+     align-items: center;
+      flex-wrap: wrap;
+    margin-top: 7em;
+}
+
+.iot{
+    width: 100%;
+    height: 25vh;
+     border-radius:5px 5px 0px 0px;
+
+}
+
+.titre_pro{
+   /* background-color: aqua;*/
+    width: 10em;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    color: white;
+ /*   align-items: center;*/
+}
+
+.titre_carte,.description,.lien{
+    
+    margin: auto;
+    width: 90%;
+   
+   /* background-color: blueviolet;*/
+}
+
+.titre_carte{
+    margin-bottom: 0;
+}
+
+
+.info_carte{
+/*    background-color: bisque;*/
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+.contacter{
+
+/*background-color: blueviolet;*/
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+width: 90%;
+height: 84vh;
+margin: auto;
+margin-top: 4em;
+margin-bottom: 3em;
+position: relative;
+
+}
+
+.formulaire{
+    width: 50%;
+    height: 90%;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+     
+}
+
+.titre_contact{
+    /* background-color: coral;*/
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    margin-bottom: 1em;
+    
+}
+
+
+input{
+    width: 70%;
+    height: 10%;
+    margin-bottom: 1em;
+}
+
+.message{
+
+height: 40%;
+  
+}
+
+.envoyer{
+    width: 70%;
+    height: 10%;
+    margin-bottom: 1em;
+
+}
+
+
+
+footer{
+    width: 100em;
+    height: 30vh;
+    background-color: rgb(95, 42, 165);
+    z-index: 2;
+}
+
+#footer-portfolio{ 
+     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+
+.footer-colonne,.footer-bas{
+
+    width: 30%;
+
+
+}
+
+
+@media(max-width: 450px) {
+
+    .h5{
+        width: 75%;
+        height: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+  
+#decouvrir{
+
+    width: 44%;
+    height: 30%;
+    font-size:medium;
+
+}
+
+
+#propos {
+width: 100%; 
+margin: auto;   
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+margin-top: 1em;
+
+position: relative;
+}
+
+.pro_img{
+width: 94%;
+margin: auto;
+height: 50vh;
+}
+
+.aside{
+    width: 100%;
+   /*background-color: brown;
+   color: whitesmoke;
+    position: relative;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+   line-height: 6vh;*/
+}
+
+/*
+header{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(187, 162, 162);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  background-image: url('fond.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family:'Montserrat';
+}
+
+/*
+#projet{
+    position: relative;
+    width: 100%;
+   
+    margin: auto;
+/*   background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+     align-items: center;
+      flex-wrap: wrap;
+    margin-top: 7em;
+}
+*/
+.titre_pro{
+    background-color: aqua;
+    margin: auto;
+    width: 10em;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    color: white;
+   
+}
+
+
+.carte{
+    display: flex;
+    background-color: white;
+    flex-wrap: wrap;
+    margin: 1em;
+    width: 24em;
+    height: 20em;
+    border-radius:5px 5px 5px 5px;
+    position: relative;
+
+}
+
+#footer-portfolio{
+    margin-top: 2em;
+     width: 100%;
+     
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+ 
+
+}
+
+
+/*.contacter{
+
+/*background-color: blueviolet;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+width: 100%;
+margin: auto;
+height: 105vh;
+
+margin-top: 4em;
+margin-bottom: 3em;
+position: relative;
+
+}
+
+*/
+.formulaire{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;   
+}
+
+.footer-colonne{
+    position: relative;
+    background-color: white;
+
+}
+
+.h1{
+font-size:larger;    
+    
+}
+
+.h1,.h2,.h3,.h5{
+    color:whitesmoke ;
+    text-align: center;
+}
+
+}
